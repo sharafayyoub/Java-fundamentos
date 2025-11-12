@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Ejemplo{
-    public sattic void main(Srtring[] args){
+    public static void main(String[] args){
         String ShortMsg = "Short Message";
         String LoongMsg= "Loooooong Message";
         boolean printShort= true;
@@ -11,7 +11,7 @@ public class Ejemplo{
             System.out.println(LoongMsg);
         }
         System.out.println("This message is always printed.");
-        for (counter= 1; counter <= 1; counter++){
+        for (counter= 1; counter <= 10; counter++){
             System.out.println("Are we there yet?");
         }
         counter= 1;
